@@ -1,0 +1,26 @@
+[
+   { "keys": ["ctrl+shift+m"], "command": "toggle_minimap" },
+   {
+    "keys": ["ctrl+shift+3"],
+    "command": "set_layout",
+    "args":
+    {"cells": [[0, 0, 1, 2], [1, 0, 2, 1], [1, 1, 2, 2]], "cols": [0.0, 0.5, 1.0], "rows": [0.0, 0.5, 1.0]}
+   },
+   {
+    "keys": ["ctrl+shift+4"],
+    "command": "set_layout",
+    "args":
+    {"cells": [[0, 0, 2, 1], [0, 1, 1, 2], [1, 1, 2, 2]], "cols": [0.0, 0.5, 1.0], "rows": [0.0, 0.5, 1.0]}
+   },
+   {
+    "keys": ["ctrl+shift+2"],
+    "command": "set_layout",
+    "args":
+    {"cells": [[0, 0, 1, 1], [0, 1, 1, 2]], "cols": [0.0, 1.0], "rows": [0.0, 0.5, 1.0]}
+   },
+   {
+       "keys": ["ctrl+shift+`"], "command": "terminus_open", "args": {
+           "cwd": "${file_path:${folder}}"
+       }
+   },
+]

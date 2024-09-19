@@ -1,0 +1,12 @@
+{
+	"theme": "paul-millr",
+	"view_settings": {
+        // these are extra view settings which are passed to the terminus_view,
+        // you could change settings like "font_face", "font_size" and paddings.
+        "font_size": 13,
+        "font_face": "JetBrains Mono",
+    },
+    "default_config": {
+         "osx": "zsh",
+     },
+}
